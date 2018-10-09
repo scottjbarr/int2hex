@@ -38,7 +38,7 @@ func main() {
 
 		h := fmt.Sprintf("%#x", i)
 		clean := strings.Replace(h, "0x", "", 1)
-		fmt.Printf("%v ", clean)
+		fmt.Printf("%02v ", clean)
 	}
 
 	fmt.Printf("\n")
